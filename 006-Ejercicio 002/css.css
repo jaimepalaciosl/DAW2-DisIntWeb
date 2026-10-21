@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+}
+header{
+    background-color: lightblue;
+    height: 100%;
+    width: 100%;
+
+    padding-bottom: 0px ;
+    text-align: center;
+    line-height: 10vh;
+}
+
+nav {
+    padding: 0px ;
+    float: left;
+    background-color: yellow;
+    width: calc(20% - 1px);
+
+    text-align: center;
+    line-height: 80vh;
+}
+
+main {
+    float: left;
+    background-color: green;
+    width: calc(80%);
+
+    text-align: center;
+    line-height: 80vh;
+}
+
+
+footer{
+    background-color: blue;
+    height: 100%;
+    width: calc(100%-100px);
+
+    text-align: center;
+    line-height: 10vh;
+}

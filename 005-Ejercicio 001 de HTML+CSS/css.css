@@ -1,0 +1,29 @@
+nav {
+    float: left;
+    background-color: blue;
+    width: calc(25% - 1px);
+
+    height: 100vh;
+    text-align: center;
+    line-height: 100vh;
+}
+
+main {
+    float: left;
+    background-color: green;
+    width: calc(50% - 1px);
+
+    height: 100vh;
+    text-align: center;
+    line-height: 100vh;
+}
+
+aside {
+    float: left;
+    width: calc(25% - 1px);
+
+    background-color: red;
+    height: 100vh;
+    text-align: center;
+    line-height: 100vh;
+}

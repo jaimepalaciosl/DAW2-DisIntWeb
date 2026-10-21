@@ -1,0 +1,19 @@
+header{
+    background-color: lightgreen;
+    color: white;
+}
+footer{
+    background-color: darkblue;
+    color: white;
+}
+h1{
+    color: darkblue;
+    text-align: center;
+}
+h2{
+    color: black;
+}
+p {
+    text-align: justify;
+}
+
