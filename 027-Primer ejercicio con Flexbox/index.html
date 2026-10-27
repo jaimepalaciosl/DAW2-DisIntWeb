@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <style>
+        header {
+            background-color: cadetblue;
+        }
+
+        nav {
+            background-color: aquamarine;
+        }
+
+        footer {
+            background-color: cyan;
+        }
+
+        @media only screen and (max-width: 1000px) {
+            article {
+                justify-content: center;
+            }
+            .flex-container {
+                display: flex;
+                flex-direction: column-reverse;
+            }
+            img {
+                width: 300px;
+                height: 300px;
+            }
+        }
+
+        
+
+        @media only screen and (min-width: 1000px) {
+            article {
+                padding: 5%;
+                justify-content: center;
+            }
+            
+            .flex-container {
+
+                display: flex;
+                flex-direction: row;
+            }
+
+            img {
+                width: 300px;
+                height: 300px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Guia de viaje</h1>
+    </header>
+    <nav>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+            industry's standard dummy text ever since 1966, when designers at Letraset and James Mosley, the librarian
+            at St Bride Printing Library in London, took a 1914 Cicero translation and scrambled it to make dummy text
+            for Letraset's Body Type sheets. It has survived not only many decades, but also the leap into electronic
+            typesetting, remaining essentially unchanged. It was popularised thanks to these sheets and more recently
+            with desktop publishing software like Aldus PageMaker and Microsoft Word including versions of Lorem Ipsum.
+        </p>
+    </nav>
+    <div class="flex-container">
+        <article>
+            <p>Madrid</p>
+            <img src="imagen01.jpg">
+        </article>
+        <article>
+            <p>Tokio</p>
+            <img src="imagen02.webp">
+        </article>
+        <article>
+            <p>Lisboa</p>
+            <img src="imagen03.jpg">
+        </article>
+    </div>
+    <footer>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+            industry's standard dummy text ever since 1966, when designers at Letraset and James Mosley, the librarian
+            at St Bride Printing Library in London, took a 1914 Cicero translation and scrambled it to make dummy text
+            for Letraset's Body Type sheets. It has survived not only many decades, but also the leap into electronic
+            typesetting, remaining essentially unchanged. It was popularised thanks to these sheets and more recently
+            with desktop publishing software like Aldus PageMaker and Microsoft Word including versions of Lorem Ipsum.
+        </p>
+    </footer>
+</body>
+
+</html>
