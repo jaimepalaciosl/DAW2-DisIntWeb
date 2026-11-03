@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .contenedor {
+            display: grid;
+            grid-template-columns: repeat(3, 33%);
+            grid-template-rows: repeat(7, 100px);
+            grid-gap: 10px
+        }
+
+        .item01 {
+            grid-column: 1;
+            grid-row: 1 / 4;
+            background-color: greenyellow;
+        }
+
+        .item02 {
+            grid-column: 2;
+            grid-row: 1;
+            background-color: greenyellow;
+        }
+
+        .item03 {
+            grid-column: 3;
+            grid-row: 1 / 3;
+            background-color: greenyellow;
+
+        }
+
+        .item04 {
+            grid-column: 1;
+            grid-row: 4 / 6;
+            background-color: greenyellow;
+
+        }
+
+        .item05 {
+            grid-column: 2;
+            grid-row: 2 / 6;
+            background-color: greenyellow;
+
+        }
+
+        .item06 {
+            grid-column: 3;
+            grid-row: 3 / 5;
+            background-color: greenyellow;
+
+        }
+
+        .item07 {
+            grid-column: 1;
+            grid-row: 6 / 8;
+            background-color: greenyellow;
+
+        }
+
+        .item08 {
+            grid-column: 2;
+            grid-row: 6;
+            background-color: greenyellow;
+
+        }
+
+        .item09 {
+            grid-column: 3;
+            grid-row: 5 / 8;
+            background-color: greenyellow;
+
+        }
+    </style>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="contenedor">
+        <div class="item01">1</div>
+        <div class="item02">2</div>
+        <div class="item03">3</div>
+        <div class="item04">4</div>
+        <div class="item05">5</div>
+        <div class="item06">6</div>
+        <div class="item07">7</div>
+        <div class="item08">8</div>
+        <div class="item09">9</div>
+    </div>
+</body>
+
+</html>

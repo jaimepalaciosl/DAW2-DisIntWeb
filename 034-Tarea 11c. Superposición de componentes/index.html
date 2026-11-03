@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        img {
+            width: 400px;
+            height: 400px;
+        }
+
+        .contenedor {
+            display: grid;
+            grid-template-columns:200px 200px 200px 200px;
+            grid-template-rows: 200px 200px 200px 200px;
+
+        }
+
+        .item01 {
+            grid-column: 1 / 2;
+            grid-row: 1 / 2;
+            z-index: 1;
+        }
+
+        .item06 {
+            grid-column: 2 / 3;
+            grid-row: 2 / 3;
+            z-index: 2;
+        }
+    </style>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="contenedor">
+        <div class="item01"><img src="imagen01.jpg"></div>
+        <div class="item06"> <img src="imagen02.jpg"></div>
+    </div>
+</body>
+
+</html>
